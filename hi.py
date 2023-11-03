@@ -6,3 +6,9 @@ print("gyryk")
 # hello its Danylo
 # hiiiiiiiii
 # hiiii
+
+def hello():
+    print("what up")
+
+hello()
+
