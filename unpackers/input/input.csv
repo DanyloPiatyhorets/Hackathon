@@ -1,3 +1,3 @@
-﻿Name,Date,Sleep,Blood Pressure,Heartrate
-Emily White,10/10/2023,3 hours,140/70 mmHg,96 bpm
-David Lee,11/09/2023,9 hours,120/85 mmHg,100 bpm
+﻿Date,Sleep,Blood Pressure,Heartrate,Name
+10/10/2023,3 hours,140/70 mmHg,96 bpm,Emily White
+11/09/2023,9 hours,120/85 mmHg,100 bpm,David Lee
