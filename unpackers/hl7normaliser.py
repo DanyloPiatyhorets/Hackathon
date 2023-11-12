@@ -2,9 +2,9 @@ import hl7
 import csv
 
 
-def normalise_hl7(original_hl7_path):
+def normalise_hl7(input_hl7_path, output_hl7_path):
     # Read the original HL7 file
-    with open(original_hl7_path, 'r') as hl7_file:
+    with open(input_hl7_path, 'r') as hl7_file:
         hl7_content = hl7_file.read()
 
     # Parse the original HL7 content
@@ -60,17 +60,19 @@ def normalise_hl7(original_hl7_path):
         csv_data.append(csv_row)
 
     # Save the new HL7 content to a new file
-    new_hl7_path = 'hl7Normal.csv'
+    # new_hl7_path = 'hl7Normal.csv'
+    # new_hl7_path = 'unpackers/output/hl7Normal.csv'
     # with open(new_hl7_path, 'w') as new_hl7_file:
     #     new_hl7_file.write(new_hl7_content)
     #
     # print("New HL7 file created successfully.")
-    with open(new_hl7_path, 'w', newline='') as csv_file:
+    with open(output_hl7_path, 'w', newline='') as csv_file:
         csv_writer = csv.DictWriter(csv_file, fieldnames=csv_field_order)
         csv_writer.writeheader()
         csv_writer.writerows(csv_data)
 
-    print(f"CSV file '{new_hl7_path}' created successfully.")
+    print("New normalised CSV file form HL7 file created successfully.")
 
 
-normalise_hl7('input/input.hl7')
+
+# normalise_hl7('input/input.hl7')
