@@ -50,7 +50,7 @@ def normalise_hl7(input_hl7_path, output_hl7_path):
     # new_hl7_content = '\n'.join(['|'.join(str(field) for field in segment) for segment in reordered_segments])
     exported_segments = pid_segments + obx_segments
 
-    csv_field_order = ['SegmentID', 'Name', 'Date', 'Heartrate', 'Blood Pressure', 'Sleep']
+    csv_field_order = ['SegmentID', 'Name', 'Date', 'Heartrate', 'BloodPressure', 'Sleep']
 
     csv_data = []
     for segment in exported_segments:

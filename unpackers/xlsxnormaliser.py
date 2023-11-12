@@ -7,7 +7,7 @@ def normalise_xls(input_excel_path, output_excel_path):
 
 
     # Define the desired column order
-    desired_order = ['Name', 'Date', 'Heartrate', 'Blood Pressure', 'Sleep']
+    desired_order = ['Name', 'Date', 'Heartrate', 'BloodPressure', 'Sleep']
 
     # Reorder the columns
     df_reordered = df[desired_order]

@@ -1,2 +1,2 @@
-SegmentID,Name,Date,Heartrate,Blood Pressure,Sleep
+SegmentID,Name,Date,Heartrate,BloodPressure,Sleep
 MSH|PID|2|67890|67890|White^Emily||19851115|F|20220101,,,,,

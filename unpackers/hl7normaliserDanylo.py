@@ -9,7 +9,7 @@ def normalise_hl7(original_hl7_path):
     # Open a CSV file for writing
     with open('output.csv', 'w', newline='') as csv_file:
         csv_writer = csv.writer(csv_file)
-        desired_order = ['Name', 'Date', 'Heartrate', 'Blood Pressure', 'Sleep']
+        desired_order = ['Name', 'Date', 'Heartrate', 'BloodPressure', 'Sleep']
         # Write header row to the CSV file
         csv_writer.writerow(desired_order)  # Define column headers
 
