@@ -14,7 +14,7 @@ def normalise_xls(input_excel_path, output_excel_path):
 
     # Save the reordered DataFrame to a new Excel file
     # new_excel_path = 'xlsNormal.csv'
-    # new_excel_path = 'unpackers/output/xlsNormal.csv'
+    # new_excel_path = 'source/output/xlsNormal.csv'
     df_reordered.to_csv(output_excel_path, index=False)
 
     print("New normalised CSV file form XLSX file created successfully.")
