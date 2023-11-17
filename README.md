@@ -19,7 +19,9 @@ Our solution addresses these challenges by providing a cheap and user-friendly E
 
 To use our EPR model:
 
-1. Import the "EPR" folder into your PowerApps environment.
+1. Install the `EPR.zip` file 
+2. Import the file into your PowerApps environment <br>
+> Detailed instructions are provided on this link: https://www.youtube.com/watch?v=Ar6Gw-pQpGc
 
 ## Normaliser Functionality
 
